@@ -1,0 +1,86 @@
+.pc-hero{
+    margin-top: 60px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../../images/1600x800/img-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include flexCenter;
+  }
+.pc-hero-form {
+    padding: 30px;
+  }
+.pc-hero-form >div{
+  background-color: rgba(255, 255, 255, 0.521);
+  // background-color: $white;
+  border-radius: 10px;
+}
+
+.pc-hero-form-btns button{
+  color: $white;
+  background-color: $red;
+  border-radius: 0;
+  padding: 0.2rem 3.5rem;
+}
+
+.pc-hero-form-btns button:hover{
+  color: $red;
+  background-color: transparent;
+  border-radius: 0;
+  border-color: $red;
+}
+
+.pc-hero-submit-btn{
+  background-color: $red;
+  @include roundBorders;
+}
+
+.pc-hero-submit-btn button, .pc-hero-submit-btn button:hover{
+  color: $white;
+}
+
+.pc-hero-heading{
+  margin-top: 2rem;
+}
+@media (max-width: 575px){
+  .pc-hero-form-btns button{
+    padding: 0.2rem 1.4rem !important;
+  }
+
+  .pc-hero{
+    height: 82vh;
+  }
+
+  .pc-hero-heading{
+    margin-top: -12rem !important;
+  }
+
+  .pc-hero-form{
+    position: absolute;
+    top: 215px;
+  }
+
+  .pc-hero-form > div{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .pc-carCardsSlider-mobile{
+    margin-top: 225px !important;
+  }
+}
+
+@media (max-width:425px){
+    .pc-hero-form{
+        position: absolute;
+        top: 260px;
+      }
+}
+
+@media (max-width: 320px){
+  .pc-hero-form-btns button{
+    padding: 0.2rem 1rem !important;
+  }
+
+  #pc-oneway-form, #pc-bythehour-form{
+    padding: 0 10px!important;
+  }
+}

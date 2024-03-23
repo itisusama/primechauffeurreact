@@ -1,0 +1,39 @@
+// Dark Theme
+body, .bg-light{
+    background-color: $background-color !important;
+  }
+
+  footer, .bg-body-tertiary{
+    background-color: $background-color !important;
+    color: $dark-textColor !important;
+  }
+  h2,h3,h4,h5,h6,
+  p,
+  li,
+  .dropdown button,
+  .pc-navbar a,
+  .pc-blog-category ul li a,
+  .form-label,
+  .pc-singleBlog-comments span,
+  .contact-icons span,
+  .pc-mobile-list li a,
+  div[data-aos="zoom-in"][data-aos-delay="800"]{
+    color: $dark-textColor;
+  }
+  .dropdown li a{
+    color: black;
+  }
+
+  .carousel-inner h5, .owl-carousel .item h5, .form-check label, .pc-faq-section .btn-link{
+    color: $dark-textColor !important;
+  }
+  .pc-faq-section .btn-link{
+    text-decoration: none;
+  }
+  .card{
+    background-color: $green;
+  }
+  .shadow{
+    background-color: $text-color !important;
+    border-radius: 10px;
+  }
