@@ -49,7 +49,7 @@ const Hero = () => {
                     {/* Date and Time */}
                     <div>
                       <div className="form-check">
-                        <input className="form-check-input" type="checkbox" value={oneWayChecked} id="onewaycheck" onChange={handleOneWayChange} />
+                        <input className="form-check-input" type="checkbox" value={oneWayChecked} id="onewaycheck" onChange={handleOneWayChange} disabled={returnChecked} />
                         <label className="form-check-label" htmlFor="flexCheckDefault">
                           One Way
                         </label>
@@ -76,7 +76,7 @@ const Hero = () => {
                     {/* Date and Time */}
                     <div>
                       <div className="form-check">
-                        <input className="form-check-input" type="checkbox" value={returnChecked} id="returncheck" onChange={handleReturnChange} />
+                        <input className="form-check-input" type="checkbox" value={returnChecked} id="returncheck" onChange={handleReturnChange} disabled={oneWayChecked} />
                         <label className="form-check-label" htmlFor="flexCheckDefault">
                           Return
                         </label>
