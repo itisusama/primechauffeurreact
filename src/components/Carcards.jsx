@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CarCards = ({carCardsData}) => {
   return (
@@ -47,12 +48,7 @@ const CarCards = ({carCardsData}) => {
                     </span>
                   </p>
                   <div className="pc-newsletter-btn mt-4 mx-auto">
-                    <button
-                      className="btn"
-                      onClick={() => (window.location.href = "/fleet")}
-                    >
-                      Book Now
-                    </button>
+                     <Link to='/fleet' className='btn text-white'> Book Now</Link>
                   </div>
                 </div>
               </div>
