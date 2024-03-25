@@ -1,18 +1,21 @@
-import React from 'react'
-import Banner from './components/Banner'
-import Homebanner from './components/Homebanner'
-import Newsletter from './components/Newsletter'
-import Right from './components/Right'
+import React from 'react';
+import Banner from './components/Banner';
+import { Link } from 'react-router-dom';
+import Right from './components/Right';
+import Homebanner from './components/Homebanner';
+import Newsletter from './components/Newsletter';
 
 const Fleet = () => {
   return (
     <>
-      <Banner
-      pageTitle="Our Cars"
-      bannerText="Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea."
-      breadcrumb="Cars"
-      showCarsBreadcrumb={false}
-    /> 
+    <div>
+        <Banner
+        pageTitle="Our Cars"
+        bannerText="Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea."
+        breadcrumb="Cars"
+        showCarsBreadcrumb={true}
+      />
+    </div>
     {/* <!-- START:: Left-right --> */}
 <section className="pc-cars mt-4 container-xl">
   <div className="row">
@@ -82,13 +85,12 @@ const Fleet = () => {
     </div>
     {/* Right */}
     <div className="col-lg-3 mt-4">
-        <Right/>
+      <Right/>
     </div>
     {/* END */}
   </div>
 </section>
 {/* <!-- END:: Left-right --> */}
-    
     <Homebanner/>
     <Newsletter/>
     </>

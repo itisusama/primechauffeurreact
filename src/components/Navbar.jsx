@@ -10,7 +10,7 @@ const Navbar = () => {
 
   const closeMobileNav = () => {
     setMobileNavActive(false);
-  };
+  }; 
 
   return (
     <>
@@ -89,7 +89,7 @@ const Navbar = () => {
                   Cars
                 </button>
                 <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/cars.html">Our Cars</Link></li>
+                  <li><Link className="dropdown-item" to="/fleet">Fleet</Link></li>
                 </ul>
               </div>
             </li>
