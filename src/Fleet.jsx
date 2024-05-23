@@ -10,6 +10,7 @@ const Fleet = () => {
     <>
     <div>
         <Banner
+        bannerClass="pc-fleet-banner"
         pageTitle="Our Cars"
         bannerText="Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea."
         breadcrumb="Cars"

@@ -6,6 +6,7 @@ const Contact = () => {
   return (
     <>
       <Banner
+      bannerClass="pc-about-banner"
       pageTitle="Contact Us"
       bannerText="Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea."
       breadcrumb="Contact"
@@ -19,7 +20,7 @@ const Contact = () => {
         <div className="row">
             <div className="col-md-6" data-aos="fade-right" data-aos-delay="1000">
             <div className="d-flex justify-content-center shadow">
-                <img src={'images/900x600/27.jpg'} className="img-fluid w-100" style={{ height: '45vh' }} alt="contact"/>
+                <img src={'images/cars/company.png'} className="img-fluid w-100" style={{ height: '45vh' }} alt="contact"/>
             </div>
             </div>
             <div className="col-md-6 bg-light" data-aos="fade-left" data-aos-delay="1000">

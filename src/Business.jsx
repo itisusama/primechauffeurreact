@@ -5,6 +5,7 @@ const Business = () => {
   return (
     <>
     <ServicePageTemplate
+    bannerClassName="pc-business-banner"
     pageName='Business Service'
     breadCrumb='Business'
     paraOne='Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea.'

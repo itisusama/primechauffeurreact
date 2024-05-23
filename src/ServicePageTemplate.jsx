@@ -13,13 +13,15 @@ const ServicePageTemplate = ({pageName, breadCrumb, ...otherProps}) => {
     paraTwo,
     cardHeading,
     cardPara,
-    cardImage
+    cardImage,
+    bannerClassName
  } = otherProps;
   return (
     <>
       {/* Banner */}
       {/* You need to implement the Banner component separately */}
       <Banner
+      bannerClass={bannerClassName}
       pageTitle={pageName}
       bannerText={paraOne}
       breadcrumb={breadCrumb}

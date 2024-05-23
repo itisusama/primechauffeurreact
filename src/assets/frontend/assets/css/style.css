@@ -235,6 +235,109 @@ div[data-aos=zoom-in][data-aos-delay="800"] {
     padding: 0 10px !important;
   }
 }
+h1 {
+  font-size: 2.3em !important;
+}
+
+h2 {
+  font-size: 1.8em !important;
+}
+
+h3 {
+  font-size: 1.5em !important;
+}
+
+h4 {
+  font-size: 1.2em !important;
+}
+
+h5 {
+  font-size: 1em !important;
+}
+
+h6 {
+  font-size: 1em !important;
+}
+
+p {
+  font-size: 1em !important;
+}
+
+li,
+label,
+::placeholder {
+  font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5em !important;
+  }
+  h2 {
+    font-size: 1.8em !important;
+  }
+  h3 {
+    font-size: 1.5em !important;
+  }
+  h4 {
+    font-size: 1.4em !important;
+  }
+  h5 {
+    font-size: 1em !important;
+  }
+  h6 {
+    font-size: 0.9em !important;
+  }
+  p {
+    font-size: 0.9em !important;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2em !important;
+  }
+  h2 {
+    font-size: 1.6em !important;
+  }
+  h3 {
+    font-size: 1.3em !important;
+  }
+  h4 {
+    font-size: 1.1em !important;
+  }
+  h5 {
+    font-size: 1em !important;
+  }
+  h6 {
+    font-size: 0.8em !important;
+  }
+  p {
+    font-size: 0.8em !important;
+  }
+}
+@media (max-width: 425px) {
+  h1 {
+    font-size: 1.6em !important;
+  }
+  h2 {
+    font-size: 1.28em !important;
+  }
+  h3 {
+    font-size: 1.024em !important;
+  }
+  h4 {
+    font-size: 0.8192em !important;
+  }
+  h5 {
+    font-size: 0.6554em !important;
+  }
+  h6 {
+    font-size: 0.5243em !important;
+  }
+  p {
+    font-size: 0.8192em !important;
+  }
+}
 .linkStyle {
   text-decoration: none;
   color: #fff;
@@ -396,13 +499,42 @@ select:focus {
     font-size: 21px !important;
   }
 }
-.pc-contact-banner {
+.pc-contact-banner, .pc-about-banner, .pc-blog-banner, .pc-fleet-banner, .pc-business-banner, .pc-events-banner, .pc-tours-banner, .pc-wedding-banner {
   margin-top: 60px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/1600x800/img-3.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/1600x800/contact.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 45vh;
+  height: 50vh;
+  font-size: small !important;
+}
+
+.pc-about-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/1600x800/about.png");
+}
+
+.pc-about-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/1600x800/blog.png");
+}
+
+.pc-fleet-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/1600x800/fleet.png");
+}
+
+.pc-business-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/1600x800/business.png");
+}
+
+.pc-events-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/1600x800/event.png");
+}
+
+.pc-tours-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/1600x800/tour.png");
+}
+
+.pc-wedding-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/1600x800/wedding.png");
 }
 
 .pc-contactus-btn {

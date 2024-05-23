@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Banner = ({ pageTitle, bannerText, breadcrumb, showCarsBreadcrumb, contactNumber, callUsButtonText }) => {
+const Banner = ({ pageTitle, bannerText, breadcrumb, showCarsBreadcrumb, contactNumber, callUsButtonText, bannerClass = "pc-contact-banner" }) => {
   return (
-    <section className="pc-contact-banner py-3">
+    <section className={`${bannerClass} py-3`}>
       <div className="container mt-3" data-aos="fade-right" data-aos-delay="1000">
         <h1 className="text-red">{pageTitle}</h1>
         <div className="text-white w-50">

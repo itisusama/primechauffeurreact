@@ -5,6 +5,7 @@ const Events = () => {
   return (
     <>
     <ServicePageTemplate
+    bannerClassName="pc-events-banner"
     pageName='Event Service'
     breadCrumb='Events'
     paraOne='Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea.'

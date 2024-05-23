@@ -10,6 +10,7 @@ const Blog = () => {
   return (
    <>
    <Banner
+      bannerClass="pc-blog-banner"
       pageTitle="Blogs"
       bannerText="Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea."
       breadcrumb="Blog"

@@ -5,6 +5,7 @@ const Wedding = () => {
   return (
     <>
     <ServicePageTemplate
+    bannerClassName="pc-wedding-banner"
     pageName='Wedding Service'
     breadCrumb='Wedding'
     paraOne='Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea.'

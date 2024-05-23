@@ -1,10 +1,33 @@
-.pc-contact-banner{
+.pc-contact-banner, .pc-about-banner, .pc-blog-banner, .pc-fleet-banner, .pc-business-banner, .pc-events-banner, .pc-tours-banner, .pc-wedding-banner{
     margin-top: 60px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/1600x800/img-3.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/1600x800/contact.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 45vh;
+    height: 50vh;
+    font-size: small !important;
+}
+
+.pc-about-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/1600x800/about.png');
+}
+.pc-about-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/1600x800/blog.png');
+}
+.pc-fleet-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/1600x800/fleet.png');
+}
+.pc-business-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/1600x800/business.png');
+}
+.pc-events-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/1600x800/event.png');
+}
+.pc-tours-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/1600x800/tour.png');
+}
+.pc-wedding-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/1600x800/wedding.png');
 }
 
 .pc-contactus-btn{

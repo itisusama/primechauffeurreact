@@ -8,31 +8,31 @@ const ServiceCards = () => {
   const services = [
     {
       title: 'Airport Transfer',
-      imageSrc: 'images/900x600/1.jpg',
+      imageSrc: 'images/900x600/1.png',
       route: '/airport',
       description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!...'
     },
       {
         title: 'Wedding',
-        imageSrc: 'images/900x600/2.jpg',
+        imageSrc: 'images/900x600/2.png',
         route: '/wedding',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!...'
       },
       {
         title: 'Events',
-        imageSrc: 'images/900x600/3.jpg',
+        imageSrc: 'images/900x600/3.png',
         route: 'events',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!...'
       },
       {
         title: 'Business',
-        imageSrc: 'images/900x600/4.jpg',
+        imageSrc: 'images/900x600/4.png',
         route: 'business',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!...'
       },
       {
         title: 'Tours',
-        imageSrc: 'images/900x600/5.jpg',
+        imageSrc: 'images/900x600/5.png',
         route: 'tours',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!...'
       }

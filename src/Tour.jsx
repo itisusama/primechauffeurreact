@@ -5,6 +5,7 @@ const Tour = () => {
   return (
     <>
     <ServicePageTemplate
+    bannerClassName="pc-tours-banner"
     pageName='Tour Service'
     breadCrumb='Tour'
     paraOne='Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea.'

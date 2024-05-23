@@ -15,6 +15,113 @@ body, html{
 
 // header
 @import 'components/hero';
+
+h1 {
+  font-size: 2.3em !important;
+}
+
+h2 {
+  font-size: 1.8em !important;
+}
+
+h3 {
+  font-size: 1.5em !important;
+}
+
+h4 {
+  font-size: 1.2em !important;
+}
+
+h5 {
+  font-size: 1em !important;
+}
+
+h6 {
+  font-size: 1em !important;
+}
+
+p {
+  font-size: 1em !important;
+}
+
+li,
+label,
+::placeholder {
+  font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5em !important;
+  }
+  h2 {
+    font-size: 1.8em !important;
+  }
+  h3 {
+    font-size: 1.5em !important;
+  }
+  h4 {
+    font-size: 1.4em !important;
+  }
+  h5 {
+    font-size: 1em !important;
+  }
+  h6 {
+    font-size: 0.9em !important;
+  }
+  p {
+    font-size: 0.9em !important;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2em !important;
+  }
+  h2 {
+    font-size: 1.6em !important;
+  }
+  h3 {
+    font-size: 1.3em !important;
+  }
+  h4 {
+    font-size: 1.1em !important;
+  }
+  h5 {
+    font-size: 1em !important;
+  }
+  h6 {
+    font-size: 0.8em !important;
+  }
+  p {
+    font-size: 0.8em !important;
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 1.6em !important;
+  }
+  h2 {
+    font-size: 1.28em !important;
+  }
+  h3 {
+    font-size: 1.024em !important;
+  }
+  h4 {
+    font-size: 0.8192em !important;
+  }
+  h5 {
+    font-size: 0.6554em !important;
+  }
+  h6 {
+    font-size: 0.5243em !important;
+  }
+  p {
+    font-size: 0.8192em !important;
+  }
+}
+
 .linkStyle{
   text-decoration: none;
   color: $dark-textColor;

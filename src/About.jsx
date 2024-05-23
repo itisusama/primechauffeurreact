@@ -8,6 +8,7 @@ const About = () => {
   return (
     <>
       <Banner
+      bannerClass="pc-about-banner"
       pageTitle="About Us"
       bannerText="Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea."
       breadcrumb="About"
@@ -18,7 +19,7 @@ const About = () => {
         <div className="row">
             {/* <!-- map Image --> */}
             <div className="col-lg-6 d-flex justify-content-center" data-aos="fade-right" data-aos-delay="1000">
-                <img src={'images/cars/locations-map.png'} className="img-fluid" alt="map"/>
+                <img src={'images/cars/company.png'} className="img-fluid" alt="map"/>
             </div>
             {/* <!-- information --> */}
             <div className="col-lg-6" data-aos="fade-left" data-aos-delay="1000">
