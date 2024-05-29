@@ -2,7 +2,6 @@ import React from 'react'
 import Banner from './components/Banner'
 import Counter from './components/Counter'
 import Homebanner from './components/Homebanner'
-import Faq from './components/Faq'
 
 const About = () => {
   return (
@@ -80,7 +79,6 @@ const About = () => {
         </div>
       </div>
     </section>
-    <Faq/>
     </>
   )
 }

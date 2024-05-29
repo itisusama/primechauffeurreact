@@ -18,6 +18,7 @@ import Booking from './Booking';
 import SingleBlog from './SingleBlog';
 import Wedding from './Wedding';
 import Events from './Events';
+import Faq from './components/Faq';
 import Business from './Business';
 import Tour from './Tour';
 
@@ -43,6 +44,7 @@ const App = () => {
         <Route path="/tour" element={<Tour/>} />
         <Route path="/booking" element={<Booking/>} />
         <Route path="/single-blog" element={<SingleBlog/>} />
+        <Route path="/faq" element={<Faq/>} />
       </Routes>
       <Footer/>
     </Router>

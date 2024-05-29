@@ -62,6 +62,7 @@ const Navbar = () => {
               </li>
               <li><Link to="/contact" style={{ marginRight: '10px' }}>Contact</Link></li>
               <li><Link to="/about" style={{ marginRight: '10px' }}>About</Link></li>
+              <li><Link to="/faq" style={{ marginRight: '10px' }}>Faq</Link></li>
               <li><Link to='/fleet' className='linkStyle btn pc-navbar-booknow px-3'> Book Now</Link></li>
             </ul>
           </div>

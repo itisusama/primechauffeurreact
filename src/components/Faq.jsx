@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
+import Banner from '../components/Banner'
+
 
 const Faq = () => {
     useEffect(() => {
@@ -41,6 +43,16 @@ const Faq = () => {
     
   return (
     <>
+    <div>
+    <Banner
+      bannerClass="pc-about-banner"
+      pageTitle="Faq"
+      bannerText="Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea."
+      breadcrumb="About"
+      showCarsBreadcrumb={false}
+    />
+    </div>
+    
       <div className="container mb-5 mt-5 pc-faq-section">
       <div className="title pt-3 d-flex justify-content-center mb-3">
         <h2 className="position-relative ms-4">FAQ</h2>
